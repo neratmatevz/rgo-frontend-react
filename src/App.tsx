@@ -5,7 +5,7 @@ import Header from './components/Header/Header';
 import NavBar from './components/NavBar/NavBar';
 import {Route, Routes } from 'react-router-dom';
 import Home from './pages/Home/Home';
-import AboutUs from './pages/AboutUs.tsx/AboutUs';
+import AboutUs from './pages/AboutUs/AboutUs';
 import Products from './pages/Products/Products';
 import Footer from './components/Footer/Footer';
 
