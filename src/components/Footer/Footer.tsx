@@ -1,14 +1,14 @@
 import React from "react";
 
 const Footer = () => {
-
-    return (        
-        <footer className="py-3 bg-dark mt-auto fixed-bottom">
-            <div className="container">
-                <p className="m-0 text-center text-white">Copyright © Your Website 2023</p>
-            </div>
+    return(
+        
+        <footer className="container">
+            <p className="float-end"><a href="#">Back to top</a></p>
+            <p>© 2017–2021 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
         </footer>
+
     );
 };
 
-export default  Footer;
+export default Footer;
