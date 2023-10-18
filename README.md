@@ -1,3 +1,3 @@
-#Application for RGO
+# React application for RGO
 
--ReactJS with Typescript
+React application with typescript
