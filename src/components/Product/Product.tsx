@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 const Product = () => {
 
     return (
-        <Link to={"/products/1"}>       
-            <div className="col mb-5">
+        <Link to={"/products/1"} >       
+            <div className="col mb-5 shadow text-dark ">
                 <div className="card h-100">
                     <img className="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
                     <div className="card-body p-4">
