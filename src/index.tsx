@@ -9,6 +9,7 @@ import Home from './sites/Home/Home';
 import Products from './sites/Products/Products';
 import Product from './sites/Product/Product';
 import PageNotFound from './sites/PageNotFound/PageNotFound';
+import Contact from './sites/Contact/Contact';
 
 
 const router = createBrowserRouter([
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
       {
         path: "/products/:productId",
         element: <Product />
+      },
+      {
+        path: "/contact",
+        element: <Contact />
       },
       {
         path: "*",
