@@ -1,12 +1,14 @@
 import React from "react";
 import Product from "../../components/Product/Product";
+import SubHeader from "../../components/SubHeader/SubHeader";
 
 const Products = () => {
 
     return (
-        <section className="py-5">
-            <div className="container px-4 px-lg-5 mt-3">
-                <h1 className="mb-5 display-1">Gostinska oprema</h1>
+        <section >
+            <SubHeader naslovStrani={"GOSTINSKA OPREMA"}/>
+            
+            <div className="container px-4 px-lg-5 mt-3">                           
                 <div className="row justify-content-between">
                     <div className="col-lg-1 col-1 col-md-1"> 
                         <div className="btn-group mb-5">

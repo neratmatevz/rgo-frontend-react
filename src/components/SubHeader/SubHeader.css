@@ -1,0 +1,27 @@
+.headerImage {
+    background-image: url(https://img601.yun300.cn/repository/image/015b1d50-b129-4aad-b540-d9bacc743590.jpg?tenantId=307226&viewType=1&k=1672048959000);
+    background-size: cover;
+    background-position: center;
+    color: black;
+    
+  }
+
+  .font {
+    -webkit-text-stroke: 0.2px rgb(255, 255, 255);
+    font-size: 3.5rem;
+  }
+
+
+  .fade-in-text {
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
