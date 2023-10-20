@@ -10,7 +10,7 @@ const AboutUs = () => {
         <SubHeader naslovStrani={"O NAS"}/>
         
 
-        <div className="bg-white py-5">            
+        <div className="bg-white py-5 mt-5">            
             <div className="container py-5"> 
                 
                 <div className="row align-items-center mb-5">

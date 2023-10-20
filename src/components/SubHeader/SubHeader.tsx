@@ -9,7 +9,7 @@ interface SubHeaderProps{
 
 const SubHeader = (props:SubHeaderProps) => {
     return(
-        <div className="container-fluid headerImage">
+        <div className="container-fluid headerImage shadow-lg border-dark border-bottom ">
                 <div >
                     <div className="container py-5">
                         <div className="row h-25 align-items-center py-3 text-lg-start text-sm-center">
